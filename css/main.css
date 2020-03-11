@@ -12,7 +12,7 @@ body{
    margin: 0 auto;
    display: flex;
    flex-direction: column;
-    
+
 }
 
 h1{
@@ -63,7 +63,7 @@ button:hover{
   font-size: 20px;
   padding: 10px;
   float: right;
-  
+
   cursor: pointer;
 }
 
@@ -77,7 +77,7 @@ button:hover{
 	justify-content: space-around;
   background-image: url("../images/stage.jpg");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-size: cover;
 	}
 
@@ -89,9 +89,9 @@ button:hover{
 }
 
 .dropzone{
-    margin: 50px auto;
-   width: 280px;
-   height: auto;
+ margin: 50px auto;
+ width: 280px;
+ height: auto;
 }
 
 .dragzone{
