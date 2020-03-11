@@ -1,4 +1,4 @@
-# Puzzle Game
+# Asian Music Mixer Game
 
 ## Prerequisites
 Need [Python3](https://www.python.org/) to build.
