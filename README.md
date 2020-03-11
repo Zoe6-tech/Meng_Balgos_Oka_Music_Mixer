@@ -33,6 +33,8 @@ Add more detail into the changeImageSet() function
 
 ## Author
 Zhu Meng
+Elaine Balgos
+Ryoko Oka
 
 
 
