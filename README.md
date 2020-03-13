@@ -2,7 +2,7 @@
   [!Musion](/images/instrument.jpg "Musion")
 
 ## Description
-  _Mu-Sion_ is derived from two words **Mu** sic, vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion. and fu **Sion** means the process or result of joining two or more things together.
+  _Mu-Sion_ is derived from two words **Mu**sic, vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion and fu**Sion** means the process or result of joining two or more things together.
 
   It is a unique game that focuses on portraying cultural differences and relation in terms of music across Asia. This is to introduce younger generation that few indigenous instruments exist before all the modernity takes place.
 
