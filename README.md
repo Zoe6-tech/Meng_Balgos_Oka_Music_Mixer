@@ -1,43 +1,48 @@
-# Asian Music Mixer Game
-
-## Prerequisites
-Need [Python3](https://www.python.org/) to build.
+# Mu-Sion Game
+  [!Musion](/images/instrument.jpg "Musion")
 
 ## Description
-Puzzle game is a unique gaming genre that focuses on solving puzzles. It tests the player’s problem-solving skills that include pattern recognition, word completion, sequence solving, and logic.
-This games are simple to play, only requiring mouse to pointing and clicking to move and select puzzle pieces on the puzzle boards, drag and then drop on the drop zone.
-Once user done the current game or wants to start a new puzzle game, they can click the buttons under the drop zone to switch to a new game.
+  _Mu-Sion_ is derived from two words **Mu** sic, vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion. and fu **Sion** means the process or result of joining two or more things together.
 
+  It is a unique game that focuses on portraying cultural differences and relation in terms of music across Asia. This is to introduce younger generation that few indigenous instruments exist before all the modernity takes place.
+
+## Game Mechanics:
+  Each doll (drop zones) will have a designated instrument to drag on and hear the music.
+
+  Step 1. Read this step by step instruction.
+  Step 2. Choose a doll type to start to play.
+  Step 3. Choose an instrument to hear the sound.
+  Step 4. You may click the “Pause” button on the upper portion of the application to pause the sound.
+  Step 5. You may click the “Rewind” button on the upper portion of the application to rewind the sound.
+
+## Getting Started
+  Its is generated through the use of basic _HTML / CSS / JavaScript._ You  may check out other resources here: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn)
+
+
+## Prerequisites
+  Illustrator, Photoshop, Youtube and Git!
+
+## Game Function
 ### Drag and drop function
-the interaction of the game is mainly realized by dragging and dropping function to achieve the puzzle,
-the implement of dragging and dropping are mainly binding of allowDrag, allowDrop, allowDragOver event.
+  the interaction of the game is mainly witnessed by dragging and dropping function to achieve the desired sound, the implement of dragging and dropping are mainly binding of allowDrag, allowDrop, allowDragOver event.
 
 
-### Drop Zone bug
-**Only one piece in one drop zone at a time.**<br/>
-User only can drag and drop one puzzle piece into a drop zone, otherwise is not allowed. This part can be defined in the allowDrop event.
-If user select a new puzzle piece and drop it on an occupied drop zone, the action should be cancelled.
-1. puzzle board still keep the original puzzle pieces    
-2. new puzzle that user selected will automatically back to the puzzle board(not disappear)
-3. Only **if** the drop zone is empty (==0) , puzzle pieces could be drop onto it
+### Drop Zone
+  **Only one piece in one drop zone at a time.**<br/>
+  User only can drag and drop one instrument into a drop zone, otherwise is not allowed. This part can be defined in the allowDrop event.
+  If user select an instrument and drop it on an occupied drop zone, the action should be cancelled.
 
+### Pause
+  Pause the sound while the music is playing.
 
-### Reset bug
-**Clear all the pieces on the drop zone area**<br/>
-All the pieces on the drop zone should mush removed after user click the image button.
-Add more detail into the changeImageSet() function
-1. All <image>  in the 4 drop zones should be clear(if has)
-2. Clean out the puzzle pieces div
-3. Generate new pieces
-
+### Rewind
+  Rewind the sound from the start.
 
 ## Author
 Zhu Meng
 Elaine Balgos
 Ryoko Oka
 
-
-
 ## License
-This project is licensed under the MIT[MIT]
+This project is licensed under the
 ([MIT](https://choosealicense.com/licenses/mit/)) license
