@@ -1,7 +1,7 @@
 body{
     font-family: helvetice,arial,sans-serif;
     font-size: 14px;
-      background-image: url("../images/stage.jpg");
+      background-image: url("../images/background.jpg");
       background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -173,7 +173,7 @@ ul li:hover{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-
+  background-image: url("../images/flower.gif");
 	}
 
 
@@ -188,6 +188,7 @@ ul li:hover{
  margin: 50px auto;
   width: 280px;
  height: 350px;
+
 }
 
 
