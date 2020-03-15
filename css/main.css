@@ -21,13 +21,18 @@ body{
 }
 
 h1{
+  margin: 45px auto;
   text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-size:45px;
 }
+
+
 
 .controllers{
   width: 600px;
   display: grid;
-  grid-template-columns:3fr 3fr 3fr ;
+  grid-template-columns:4fr 2fr 2fr 2fr;
   margin:0 auto;
   grid-gap: 5px;
 }
@@ -35,15 +40,20 @@ h1{
 /*play pause and restart*/
 button{
       /*display: block;*/
-  font-size: 18px;
+  font-family: 'Sigmar One', cursive;
+  font-size: 20px;
   padding: 10px;
   cursor: pointer;
   color: #ffffff;
   background-color: #000000;
+  border-radius: 12px;
+    transition-duration: 0.3s;
 }
+
 button:hover{
   color: #000000;
   background-color: red;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /* pop up mechanics */
@@ -54,7 +64,7 @@ button:hover{
   height: 500px;
   color: white;
   background-color: black;
-  opacity: 75%;
+
   /*border-style: outset;*/
   /*border-width: 10px;*/
   /*border-color: red;*/
@@ -62,11 +72,61 @@ button:hover{
   padding: 0px 10px 0px 10px;
   /*eventually we will hide it by default display:none*/
 }
-
-.title, .subMechanics {
-  font-weight: bold;
-  font-size: 18px
+.boardbox h3{
+  margin: 20px auto;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Carter One', cursive;
+  margin-bottom: 20px;
 }
+
+.boardbox h4{
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Carter One', cursive;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+
+.boardbox h5{
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Carter One', cursive;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+
+.boardbox h6{
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Carter One', cursive;
+  margin-bottom: 5px;
+}
+
+.C-red:hover{
+  color: red;
+}
+
+.P-blue:hover{
+  color: blue;
+}
+
+.J-lime:hover{
+  color: lime;
+}
+
+p{
+  font-family: 'Carter One', cursive;
+  padding: 5px;
+}
+
+p::first-letter{
+  font-size: 200%;
+ color: #8A2BE2;
+}
+
 
 #countries {
   display: grid;
@@ -77,6 +137,21 @@ button:hover{
   padding: 0px 100px 0px 100px;
 }
 
+ul{
+  margin: auto 10px;
+  font-family: 'Carter One', cursive;
+  list-style-type: square;
+}
+
+ul li{
+  padding: 3px;
+  margin: auto 10px;
+}
+
+ul li:hover{
+  color: tan;
+  padding: 1px;
+}
 .show-boardbox{
   display: block;
 }
@@ -120,18 +195,21 @@ button:hover{
   -moz-box-shadow: 0 0 20px blue;
       -webkit-box-shadow: 0 0 20px blue;
       box-shadow: 0 0 20px blue;
+      transition-duration: 0.4s;
 }
 
 .dropzone-China img:hover{
     -moz-box-shadow: 0 0 20px red;
       -webkit-box-shadow: 0 0 20px red;
       box-shadow: 0 0 20px red;
+      transition-duration: 0.4s;
 }
 
 .dropzone-Japan img:hover{
     -moz-box-shadow: 0 0 20px lime;
       -webkit-box-shadow: 0 0 20px lime;
       box-shadow: 0 0 20px lime;
+      transition-duration: 0.4s;
 }
 
 .dragzone{
@@ -170,6 +248,8 @@ button:hover{
     margin: 5px;
     border-style: groove;
     border-width: 5px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
 }
 
 .button-p{
