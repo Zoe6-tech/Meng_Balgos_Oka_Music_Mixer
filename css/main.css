@@ -1,6 +1,11 @@
 body{
     font-family: helvetice,arial,sans-serif;
     font-size: 14px;
+      background-image: url("../images/stage.jpg");
+      background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
 .hidden{
@@ -29,7 +34,7 @@ h1{
 
 /*play pause and restart*/
 button{
-  /*display: block;*/
+      /*display: block;*/
   font-size: 18px;
   padding: 10px;
   cursor: pointer;
@@ -38,7 +43,7 @@ button{
 }
 button:hover{
   color: #000000;
-  background-color: gray;
+  background-color: red;
 }
 
 /* pop up mechanics */
@@ -77,38 +82,56 @@ button:hover{
 }
 
 .close-button{
-  color: gray;
+  color: red;
   font-size: 20px;
   padding: 10px;
   float: right;
+
   cursor: pointer;
 }
 
 #stage{
 	text-align: center;
-	margin: 10px auto;
+	 margin: 10px auto;
 	width: 1500px;
 	height: 650px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-  background-image: url("../images/stage.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+
 	}
 
 
 .area{
-	width: 450px;
-  height: 660px;
-  margin-top: 20px;
+	 width: 450px;
+   height: 600px;
+   margin-top: 20px;
+
 }
 
 .dropzone{
-  margin: 50px auto;
+ margin: 50px auto;
   width: 280px;
-  height: 350px;
+ height: 350px;
+}
+
+
+.dropzone-Philippines img:hover{
+  -moz-box-shadow: 0 0 20px blue;
+      -webkit-box-shadow: 0 0 20px blue;
+      box-shadow: 0 0 20px blue;
+}
+
+.dropzone-China img:hover{
+    -moz-box-shadow: 0 0 20px red;
+      -webkit-box-shadow: 0 0 20px red;
+      box-shadow: 0 0 20px red;
+}
+
+.dropzone-Japan img:hover{
+    -moz-box-shadow: 0 0 20px lime;
+      -webkit-box-shadow: 0 0 20px lime;
+      box-shadow: 0 0 20px lime;
 }
 
 .dragzone{
@@ -118,6 +141,7 @@ button:hover{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+
 }
 
 .dragzone img:hover{
@@ -139,13 +163,13 @@ button:hover{
 
 
 .button{
-  width: 90px;
-  height: 90px;
-  background-color: #ffffff;
-  padding: 5px;
-  margin: 5px;
-  border-style: groove;
-  border-width: 5px;
+    width: 90px;
+    height: 90px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 5px;
+    border-style: groove;
+    border-width: 5px;
 }
 
 .button-p{
