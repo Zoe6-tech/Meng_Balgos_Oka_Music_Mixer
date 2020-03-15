@@ -8,7 +8,8 @@
           dropZoneC=document.querySelector('.dropzone-China');
 
         let boardBox=document.querySelector('.boardbox'),
-            playButton=document.querySelector(".play-button"),
+            HTplayButton=document.querySelector(".HTplay-button"),
+						playButton=document.querySelector(".play-button"),
             closeButton=boardBox.querySelector('.close-button'),
             pauseButton=document.querySelector('.pause-button'),
             restartButton=document.querySelector('.restart-button');
@@ -139,6 +140,18 @@
     boardBox.classList.remove("show-boardbox");
   }
 
+	function playTrack(){
+   if(globalPaused){
+     console.log('paused');
+     resumeTrack();
+     return;
+   }}
+
+	 function resumeTrack(){
+		 globalPaused=false;
+		 audioElement.play();
+ }
+
   function pauseTrack() {
     audioElement.pause();
     globalPaused=true;
@@ -150,9 +163,10 @@
 
 //--------------------------------------------------------
  //event hadling for our sigilButtons
-      playButton.addEventListener("click",showBoardBox);
+      HTplayButton.addEventListener("click",showBoardBox);
 //add some event handling fot the lightbox close closeButton
       closeButton.addEventListener("click",hideBoardBox);
+			playButton.addEventListener("click",playTrack);
       pauseButton.addEventListener("click",pauseTrack);
       restartButton.addEventListener("click",rewindTrack);
 

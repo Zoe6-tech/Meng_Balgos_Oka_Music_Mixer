@@ -2,69 +2,74 @@
 <html>
 <head>
 	<title>Music mixer</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Carter+One&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div id="container">
-	  <h1>Welcome to Asian Music Mixer Game!!!</h1>
+	  <h1>Welcome to Asian Style Mu-Sion Game!!!</h1>
 	   <div class="controllers">
        	 <h2 class="hidden"> Control Buttons</h2>
-         <button class="play-button">How To Play</button>
+         <button class="HTplay-button">How To Play</button>
+				 <button class="play-button">Play</button>
          <button class="pause-button">Pause</button>
          <button class="restart-button">Restart</button>
        </div>
        <div class="boardbox">
-       	<h3 class="hidden">Mechanics</h3>
-       	 <span class="close-button">X</span>
-				 <div class="textMechanics">
-					 <p class="title">Mu-Sion Game<br>
-					 								(Music Fusion from China, Philippines and Japan)</p>
-					 <p class="desc">You are about to hear some of the traditional instruments derived
+				 <span class="close-button">X</span>
+       	<h3>How  To  Play Mu-Sion Game</h3>
+					 <h4>Music Fusion from China, Philippines and Japan</h4>
+					 <p>You are about to hear some of the traditional instruments derived
 					 from Asian countries such as China, the Philippines, and Japan.
 					 The goal of this game is to introduce to the younger generation that
 					 few indigenous instruments exist before all the modernity takes place.</p>
-					 <span id="countries">
-						 <p class="left">CHINA<br>
-					 									 Dizi<br>
-					 									 Guzheng<br>
-					 									 Pipa<br>
-					 									 Erhu<br>
-						 </p>
-						 <p class="center">PHILPPINES<br>
-							 							 Kulintang<br>
-														 Luntang<br>
-														 Diwas<br>
-							 				 			 Gambal<br>
-						 </p>
-						 <p class="right">JAPAN<br>
-							 								Koto<br>
-															Shamisen<br>
-															Shinobue<br>
-															Kozutsumi<br>
-						 </p>
-				 	  </span>
-
-						<p class="subMechanics"><br>GAME MECHANICS:</p>
-						<p class="steps">
-							Each doll (drop zones) will have a designated instrument to drag on
-							and hear the music.
-							<br>
-							Step 1. Read this step by step instruction.<br>
-							Step 2. Choose a doll type to start to play.<br>
-							Step 3. Choose an instrument to hear the sound.<br>
-							Step 4. You may click the “Pause” button on the upper portion of the
-							application to pause the sound.<br>
-							Step 5. You may click the “Rewind” button on the upper portion of the
-							application to rewind the sound.<br>
+            <div id="countries">
+						<div class="C-red">
+						 <h5>CHINA:</h5>
+					 		<h6>Dizi<br>
+					 		<h6>Guzheng<br>
+					 		<h6>Pipa<br>
+					 		<h6>Erhu<br>
+            </div>
+						<div class="P-blue">
+						 <h5>PHILPPINES:</h5>
+							<h6>Kulintang</h6>
+							<h6>Luntang</h6>
+							<h6>Diwas</h6>
+							<h6>Gambal</h6>
+            </div>
+						<div class="J-lime">
+						 <h5>JAPAN:</h5>
+							<h6>Koto</h6>
+							<h6>Shamisen</h6>
+							<h6>Shinobue</h6>
+							<h6>Kozutsumi</h6>
+						 </div>
+            </div>
+						<h4>GAME MECHANICS:</h4>
+						<h5>Each doll will have a designated instrument to drag on
+							and hear the music.</h5>
+							<ul>
+							<li>Step 1. Read this step by step instruction.</li>
+							<li>Step 2. Choose a doll type to start to play.</li>
+							<li>Step 3. Choose an instrument to hear the sound.</li>
+							<li>Step 4. You may click the “Pause” button on the upper portion of the
+							application to pause the sound.</li>
+							<li>Step 5. You may click the “Rewind” button on the upper portion of the
+							application to rewind the sound.</li>
 							<br>
 							Hope you had fun and new learning too!
-						</p>
-				</div>
+						</ul>
+
        </div>
 	<!--stage area-->
 	 <div id="stage">
 	 	<h2 class="hidden">Stage Area</h2>
-<!---------------china stage area----------------------->
+<!---------------China stage area----------------------->
 	 	<div  class="area">
 	  		<h3 class="hidden">China stage area</h3>
 	 		<div class="dropzone dropzone-China" id="ChinaArea">
