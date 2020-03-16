@@ -1,5 +1,5 @@
 # Mu-Sion Game
-  ![Musion!](/images/instrument.jpg "Musion")
+![Musion!](/images/instrument.jpg "Musion")
 
 ## Description
   _Mu-Sion_ is derived from two words **Mu**sic, vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion and fu**Sion** means the process or result of joining two or more things together.
