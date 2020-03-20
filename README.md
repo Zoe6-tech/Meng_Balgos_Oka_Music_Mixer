@@ -9,11 +9,11 @@
 ## Game Mechanics
   Each doll (drop zones) will have a designated instrument to drag on and hear the music.
 
-  Step 1. Read this step by step instruction.
-  Step 2. Choose a doll type to start to play.
-  Step 3. Choose an instrument to hear the sound.
-  Step 4. You may click the “Pause” button on the upper portion of the application to pause the sound.
-  Step 5. You may click the “Rewind” button on the upper portion of the application to rewind the sound.
+  Step 1. Read this step by step instruction.  
+  Step 2. Choose a doll type to start to play.  
+  Step 3. Choose an instrument to hear the sound.  
+  Step 4. You may click the “Pause” button on the upper portion of the application to pause the sound.  
+  Step 5. You may click the “Rewind” button on the upper portion of the application to rewind the sound.  
 
 ## Getting Started
   Its is generated through the use of basic _HTML / CSS / JavaScript._ You  may check out other resources here: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn)
